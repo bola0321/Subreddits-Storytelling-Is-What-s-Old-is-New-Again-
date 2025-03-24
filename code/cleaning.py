@@ -111,3 +111,5 @@ def tfidf_list_and_barplot(ngram1, ngram2, X_train, X_test, y_train, y_test):
     
     # Plot top 15 words in combined dataframe
     top_tokens.head(15).plot(kind='barh');
+    plt.xlabel("TF-IDF Vectorization Score")
+    plt.ylabel("text")    
